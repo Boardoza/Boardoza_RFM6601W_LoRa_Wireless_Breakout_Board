@@ -97,6 +97,28 @@ The module operates with **3.3V or 5V** supply voltage and communicates via **UA
 
 ---
 
+## Compatible Antennas
+
+For reliable and long-range RF performance in the **868 MHz ISM band**, it is strongly recommended to use a properly tuned **50Ω external antenna** specifically designed for 868 MHz operation. A matched antenna improves transmission efficiency, enhances receiver sensitivity, and ensures stable communication performance.
+
+Using an antenna optimized for the operating frequency helps minimize return loss, low VSWR (Voltage Standing Wave Ratio) and maximizes RF power transfer from the module.
+
+
+
+[Recommended Antenna: 868 MHz 3 dBi Omni-Directional LoRa SMA Antenna](https://www.ozdisan.com/p/rf-antenler-660/sunnyway-rf-swf022-sw24008ib77-1210812)
+
+**Key Antenna Characteristics:**
+
+- **Frequency:** 868 MHz ISM Band  
+- **Gain:** 3.62 dBi  
+- **Radiation Pattern:** Omni-directional  
+- **Connector Type:** IPEX MHF1  
+- **Impedance:** 50Ω  
+
+>  **Important:** Always connect the antenna before powering the RF module. Operating the module without a connected antenna may cause RF stage damage and significantly reduce transmission performance.
+
+---
+
 ## Step Files
 
 [Boardoza RFM6601W.step](./assets/RFM6601W%20Step.step)
